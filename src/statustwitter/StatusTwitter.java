@@ -21,6 +21,7 @@ public class StatusTwitter {
      */
     public static void main(String[] args) throws TwitterException {
 
+        //Cambios para commmit en master.
         Twitter mitwitter = new TwitterFactory().getInstance();
 
         Query query = new Query("#Cangas");
